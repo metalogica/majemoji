@@ -10,6 +10,8 @@ __  __              _ ______ __  __  ____       _ _____
 ---------------------------------------------------------
 Emojis in your command prompt. Grand.
 
+![](https://recordit.co/Wjoy1k2yvT)
+
 ## Installation
 The install script will do two things: 
 * 1. Copy the majemoji code into your `oh-my-zsh directory`.
