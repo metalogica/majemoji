@@ -12,7 +12,7 @@ __  __              _ ______ __  __  ____       _ _____
 Emojis in your command prompt. Grand.
 ```
 
-![](https://recordit.co/Wjoy1k2yvT)
+<img src="http://g.recordit.co/Wjoy1k2yvT.gif"/>
 
 ## Installation
 The install script will do two things: 
