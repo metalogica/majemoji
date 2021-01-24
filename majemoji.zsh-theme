@@ -12,6 +12,7 @@ then
   RANDOM_EMOJI=$NUMBER_EMOJIS
 fi
 
+# issue standard robbyrussell prompter
 PROMPT="%(?:%{$fg_bold[green]%}:%{$fg_bold[red]%})${EMOJIS[$RANDOM_EMOJI]} "
 PROMPT+=' %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
 
