@@ -19,7 +19,7 @@
 * 2. Modify your `ZSH_THEME` variable in your `zshrc` file. 
 
 ### Automatic install
-🌈 Copy and paste the code below into your terminal in one thic chunk and bam you're ready to go!
+🌈 Copy and paste the code below into your terminal in one thicc 🍑 chunk and bam you're ready to go! 🚀
 ```
 curl -s https://raw.githubusercontent.com/catonmat/majemoji/master/majemoji.zsh-theme >> majemoji.zsh-theme && \
 curl -s https://raw.githubusercontent.com/catonmat/majemoji/master/install.sh > install.sh && \
