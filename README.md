@@ -54,5 +54,5 @@ If any of the three points above are not true for you, then you'll have to manua
 * Copy and paste `ZSH_THEME=majemoji` to the bottom of your `~/.zshrc` file.
 * Reboot your Zsh session by running the command: `zsh`.
 
-## Contibuting
+## Contributing
 🧠 Welcoming any ideas and suggestions for improvement! 
