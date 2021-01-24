@@ -1,7 +1,7 @@
 ```sh
 ---------------------------------------------------------
 
-__  __              _ ______ __  __  ____       _ _____ 
+ __  __              _ ______ __  __  ____       _ _____ 
 |  \/  |   /\       | |  ____|  \/  |/ __ \     | |_   _|
 | \  / |  /  \      | | |__  | \  / | |  | |    | | | |  
 | |\/| | / /\ \ _   | |  __| | |\/| | |  | |_   | | | |  
@@ -19,13 +19,6 @@ The install script will do two things:
 * 1. Copy the majemoji code into your `oh-my-zsh directory`.
 * 2. Modify your `ZSH_THEME` variable in your `zshrc` file.
 
-The automatic script assumes two things: 
-* The path of your `oh-my-zsh directory` is `~./oh-my-zsh directory`.
-* The path of your `zshrc` file is `~/.zshrc`.
-* You are willing to prefix the install script with `sudo` as you'll be moving files inside your `~` directory.
-
-If any of the three points above are not true for you, then you'll have to do a manual install instead.
-
 ### Automatic install
 ```shell
 # clone the repo
@@ -34,17 +27,24 @@ git clone [majemoji_repo_url]
 # move into the directory
 cd majemoji
 
-# I encourage you to double check contents of the install script to ensure you are happy to run it! It's very simple and striaghtforward.
+# I encourage you to double check contents of the install script to ensure you are happy to run it! It's very simple and straightforward.
 cat install.sh
 
 # run the install!
-sudo install.zsh
+sh install.sh
 
 # reboot your Zsh in the terminal to see Majemoji Action!!!
 zsh
 ```
 
 ### Manual Install
+The automatic script assumes two things: 
+* The path of your `oh-my-zsh directory` is `~./oh-my-zsh directory`.
+* The path of your `zshrc` file is `~/.zshrc`.
+* You are willing to prefix the install script with `sudo` as you'll be moving files inside your `~` directory.
+
+If any of the three points above are not true for you, then you'll have to do a manual install instead.
+
 ```shell
 # clone the repo
 git clone [majemoji_repo_url]

@@ -1,9 +1,9 @@
-#!zsh
+#!/bin/zsh
 
 echo "
 ---------------------------------------------------------
 
-__  __              _ ______ __  __  ____       _ _____ 
+ __  __              _ ______ __  __  ____       _ _____ 
 |  \/  |   /\       | |  ____|  \/  |/ __ \     | |_   _|
 | \  / |  /  \      | | |__  | \  / | |  | |    | | | |  
 | |\/| | / /\ \ _   | |  __| | |\/| | |  | |_   | | | |  
@@ -28,11 +28,11 @@ read RESPONSE
 if [[ $RESPONSE == "y" || $RESPONSE == "Y" ]]; then
   # copy theme into ~/oh-my-zsh/themes
   echo "Copying theme file...\n"
-  cp majemoji.zsh-theme ~/oh-my-zsh/themes
+  cp majemoji.zsh-theme ~/.oh-my-zsh/themes
 
   # append theme into ~/.zshrc
   echo "Appending theme into .zshrc...\n"
-  echo "ZSH_THEME='majemoji'" >> ./test/zshrc
+  echo "ZSH_THEME='majemoji'" >> ~/.zshrc
 
   echo "Done!\n"
 fi
