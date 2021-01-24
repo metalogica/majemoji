@@ -56,3 +56,4 @@ If any of the three points above are not true for you, then you'll have to manua
 
 ## Contributing
 🧠 Welcoming any ideas and suggestions for improvement! 
+
