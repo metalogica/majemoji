@@ -1,12 +1,12 @@
 ```sh
 ---------------------------------------------------------
- __  __              _ _____  __  __  ____       _ _____ 
-|  \/  |   /\       | |_   _||  \/  |/ __ \     | |_   _|
-| \  / |  /  \      | | | |  | \  / | |  | |    | | | |  
-| |\/| | / /\ \ _   | | | |  | |\/| | |  | |_   | | | |  
-| |  | |/ ____ \ |__| |_| |_ | |  | | |__| | |__| |_| |_ 
-|_|  |_/_/    \_\____/|_____||_|  |_|\____/ \____/|_____|
-                                                  
+ __  __              _ ______ __  __  ____       _ _____ 
+|  \/  |   /\       | |  ____|  \/  |/ __ \     | |_   _|
+| \  / |  /  \      | | |__  | \  / | |  | |    | | | |  
+| |\/| | / /\ \ _   | |  __| | |\/| | |  | |_   | | | |  
+| |  | |/ ____ \ |__| | |____| |  | | |__| | |__| |_| |_ 
+|_|  |_/_/    \_\____/|______|_|  |_|\____/ \____/|_____|
+                                                                                                                            
 🍎 Emojify your terminal.                                     
 ---------------------------------------------------------                                                                     
 ```
@@ -25,8 +25,6 @@ curl -s https://raw.githubusercontent.com/catonmat/majemoji/master/majemoji.zsh-
 curl -s https://raw.githubusercontent.com/catonmat/majemoji/master/install.sh > install.sh && \
 sh install.sh && rm install.sh && rm majemoji.zsh-theme && zsh
 ```
-
-⭐ Enjoy your new magical emojis! To refresh the emoji, just type `zsh` to reboot your shell and reload a new one.
 
 ### Manual Install
 ```shell
@@ -57,4 +55,4 @@ If any of the three points above are not true for you, then you'll have to manua
 * Reboot your Zsh session by running the command: `zsh`.
 
 ## Contibuting
-Welcoming any ideas and suggestions for improvement! 🧠
+🧠 Welcoming any ideas and suggestions for improvement! 
