@@ -2,17 +2,16 @@
 
 echo "
 ---------------------------------------------------------
-
- __  __              _ ______ __  __  ____       _ _____ 
-|  \/  |   /\       | |  ____|  \/  |/ __ \     | |_   _|
-| \  / |  /  \      | | |__  | \  / | |  | |    | | | |  
-| |\/| | / /\ \ _   | |  __| | |\/| | |  | |_   | | | |  
-| |  | |/ ____ \ |__| | |____| |  | | |__| | |__| |_| |_ 
-|_|  |_/_/    \_\____/|______|_|  |_|\____/ \____/|_____|
-                                                          
-github: @catonmat                                        
+ __  __              _ _____  __  __  ____       _ _____ 
+|  \/  |   /\       | |_   _||  \/  |/ __ \     | |_   _|
+| \  / |  /  \      | | | |  | \  / | |  | |    | | | |  
+| |\/| | / /\ \ _   | | | |  | |\/| | |  | |_   | | | |  
+| |  | |/ ____ \ |__| |_| |_ | |  | | |__| | |__| |_| |_ 
+|_|  |_/_/    \_\____/|_____||_|  |_|\____/ \____/|_____|
+                                                  
+🍎 Emojify your terminal.                                     
 ---------------------------------------------------------
-Emojis in your command prompt. Grand.                                                        
+github: @catonmat                                                      
 "
 
 echo "
@@ -32,9 +31,13 @@ if [[ $RESPONSE == "y" || $RESPONSE == "Y" ]]; then
 
   # append theme into ~/.zshrc
   echo "Appending theme into .zshrc...\n"
-  echo "ZSH_THEME='majemoji'" >> ~/.zshrc
+  # global regex to replace any existing ZSH_THEME with majimoji
+  sed -ie 's/ZSH_THEME=.*$/ZSH_THEME="majimoji"/g' ~/.zshrc
+  # if the theme already has ZSH_THEME then replace it
+  echo "ZSH_THEME='majimoji'" >> ~/.zshrc
+  # else append new theme to end of file
 
-  echo "Done!\nPlease enter the command 'zsh' after installation to reboot your terminal!"
+  echo "Done!\n"
 fi
 
 if [[ $RESPONSE == "n" || $RESPONSE == "N" ]]; then
