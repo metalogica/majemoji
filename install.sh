@@ -31,13 +31,13 @@ if [[ $RESPONSE == "y" || $RESPONSE == "Y" ]]; then
 
   # append theme into ~/.zshrc
   echo "Appending theme into .zshrc...\n"
-  # global regex to replace any existing ZSH_THEME with majimoji
-  sed -ie 's/ZSH_THEME=.*$/ZSH_THEME="majimoji"/g' ~/.zshrc
+  # global regex to replace any existing ZSH_THEME with majemoji
+  sed -ie 's/ZSH_THEME=.*$/ZSH_THEME="majemoji"/g' ~/.zshrc
   # if the theme already has ZSH_THEME then replace it
-  echo "ZSH_THEME='majimoji'" >> ~/.zshrc
+  echo "ZSH_THEME='majemoji'" >> ~/.zshrc
   # else append new theme to end of file
 
-  echo "Done!\n"
+  echo "You are officially magically emojified 🧞 .AWESOME.\n\nLike the theme? Feel free to share the love 💝 on social media! https://github.com/catonmat/majemoji"
 fi
 
 if [[ $RESPONSE == "n" || $RESPONSE == "N" ]]; then

@@ -1,4 +1,4 @@
-# Majemoji: Add emojis to the command prompt. Grand.
+# Majemoji: Magical emojis in your your terminal.
 # Extension by @catonmat: https://github.com/catonmat
 # Inspired by the Robby Russell Theme: https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme
 
