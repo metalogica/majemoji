@@ -20,6 +20,13 @@ The install script will do two things:
 * 2. Modify your `ZSH_THEME` variable in your `zshrc` file.
 
 ### Automatic install
+```
+curl https://raw.githubusercontent.com/catonmat/majemoji/master/majemoji.zsh-theme >> majemoji.zsh-theme && \
+curl https://raw.githubusercontent.com/catonmat/majemoji/master/install.sh > install.sh && \
+sh install.sh && rm install.sh && rm majemoji.zsh-theme && zsh
+```
+
+### Manual Install
 ```shell
 # clone the repo
 git clone [majemoji_repo_url]
@@ -37,22 +44,12 @@ sh install.sh
 zsh
 ```
 
-### Manual Install
-The automatic script assumes two things: 
+The automatic install script assumes two things: 
 * The path of your `oh-my-zsh directory` is `~./oh-my-zsh directory`.
 * The path of your `zshrc` file is `~/.zshrc`.
 * You are willing to prefix the install script with `sudo` as you'll be moving files inside your `~` directory.
 
-If any of the three points above are not true for you, then you'll have to do a manual install instead.
-
-```shell
-# clone the repo
-git clone [majemoji_repo_url]
-
-# move into the directory
-cd majemoji
-```
-
+If any of the three points above are not true for you, then you'll have to manually move the files.
 * Manually copy and paste the `majemoji.zsh-theme` file into your `oh-my-zsh directory`.
 * Copy and paste `ZSH_THEME=majemoji` to the bottom of your `~/.zshrc` file.
 * Reboot your Zsh session by running the command: `zsh`.

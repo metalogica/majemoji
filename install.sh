@@ -34,7 +34,7 @@ if [[ $RESPONSE == "y" || $RESPONSE == "Y" ]]; then
   echo "Appending theme into .zshrc...\n"
   echo "ZSH_THEME='majemoji'" >> ~/.zshrc
 
-  echo "Done!\n"
+  echo "Done!\nPlease enter the command 'zsh' after installation to reboot your terminal!"
 fi
 
 if [[ $RESPONSE == "n" || $RESPONSE == "N" ]]; then
