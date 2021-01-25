@@ -14,10 +14,6 @@
 <img src="http://g.recordit.co/Wjoy1k2yvT.gif"/>
 
 ## Installation
-💡 The install script will do two things: 
-* 1. Copy the majemoji code into your `oh-my-zsh directory`.
-* 2. Modify your `ZSH_THEME` variable in your `zshrc` file. 
-
 ### Automatic install
 🌈 Copy and paste the code below into your terminal in one thicc 🍑 chunk and bam you're ready to go! 🚀
 ```
@@ -44,7 +40,7 @@ sh install.sh
 zsh
 ```
 
-The automatic install script assumes two things: 
+The install script assumes two things: 
 * The path of your `oh-my-zsh directory` is `~./oh-my-zsh directory`.
 * The path of your `zshrc` file is `~/.zshrc`.
 * You are willing to prefix the install script with `sudo` as you'll be moving files inside your `~` directory.
