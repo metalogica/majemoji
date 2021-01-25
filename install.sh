@@ -37,7 +37,7 @@ if [[ $RESPONSE == "y" || $RESPONSE == "Y" ]]; then
   echo "ZSH_THEME='majemoji'" >> ~/.zshrc
   # else append new theme to end of file
 
-  echo "You are officially magically emojified 🧞 .AWESOME.\n\nLike the theme? Feel free to share the love 💝 on social media! https://github.com/catonmat/majemoji"
+  echo "You are officially magically emojified 🧞 .AWESOME.\n\nLike the theme? Feel free to ⭐ star the repo and share the love 💝 on social media! https://github.com/catonmat/majemoji"
 fi
 
 if [[ $RESPONSE == "n" || $RESPONSE == "N" ]]; then
